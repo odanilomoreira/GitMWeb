@@ -85,5 +85,5 @@
 .rodape{
   display: grid;
   grid-area: rodape;
-  background-color: red;
+  background-color: #000543;
 }
