@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr 3fr 3fr 1fr;
+  grid-template-rows: 2fr 4fr 3fr 12fr 36fr 8fr 8fr;
+
+  grid-template-areas:
+  "menu-header menu-header menu-header menu-header menu-header menu-header"
+  "logo-busca logo-busca  logo-busca  logo-busca  logo-busca  logo-busca"
+  "menu-categorias menu-categorias menu-categorias menu-categorias menu-categorias menu-categorias"
+  "carrossel carrossel carrossel carrossel  carrossel carrossel"
+  "conteudo conteudo conteudo conteudo conteudo conteudo"
+  "cupons-desconto cupons-desconto cupons-desconto cupons-desconto cupons-desconto cupons-desconto"
+  "rodape rodape rodape rodape rodape rodape";
+
+}
+
+.menu-header{
+  display: grid;
+  grid-area: menu-header;
+  background-color: gray;
+}
+
+.logo-busca{
+  display: grid;
+  grid-area: logo-busca;
+  background-color:yellow;
+}
+
+.carrossel{
+  display: grid;
+  grid-area: carrossel;
+  background-color: purple;
+}
+
+.menu-categorias{
+  display: grid;
+  grid-area: menu-categorias;
+  background-color: orange;
+}
+
+.conteudo{
+  display: grid;
+  grid-area: conteudo;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 12fr 12fr 12fr;
+  grid-template-areas:
+  "anuncios-destaque anuncios-destaque anuncios-destaque anuncios-destaque"
+  "ofertas-semana ofertas-semana ofertas-semana ofertas-semana"
+  "voce-viu voce-viu voce-viu voce-viu";
+  background-color: #eee;
+}
+
+.anuncios-destaque{
+  display: grid;
+  grid-area: anuncios-destaque;
+  background-color: blue;
+}
+
+.ofertas-semana{
+  display: grid;
+  grid-area: ofertas-semana;
+  background-color: brown;
+
+}
+
+.voce-viu{
+  display: grid;
+  grid-area: voce-viu;
+  background-color: green;
+
+}
+
+.cupons-desconto{
+  display: grid;
+  grid-area: cupons-desconto;
+  background-color: pink;
+}
+
+.rodape{
+  display: grid;
+  grid-area: rodape;
+  background-color: beige;
+}
