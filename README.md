@@ -7,5 +7,5 @@ Projeto de interface Web
 | Item 1       | Item 2       |
 
 - [ ] Item 1 **Item bold**
-- [ ] Item 2 ![/img/carrosel.JPG]()
+- [ ] Item 2 !["/img/carrosel.JPG"]()
 - [ ] Item 3
