@@ -4,21 +4,36 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/footer-distributed-with-address-and-phones.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
     <title>Home</title>
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+    $(function(){
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+      $("#carousel").load("carousel.html");
+
+    });
+    </script>
+
   </head>
   <body>
     <div class="grid">
-      <div class="menu-header">menu-header</div>
-      <div class="logo-busca">logo-busca</div>
-      <div class="menu-categorias">menu-categorias</div>
-      <div class="carrossel">carrossel</div>
+      <div class="menu-header"> <img src="/img/menu-logobusca.jpg" alt=""></div>
+      <div class="logo-busca"><img src="/img/carrosel.jpg" alt=""></div>
+      <div class="menu-categorias"></div>
+      <div class="carrossel" ><img src="/img/conteudo.jpg" alt=""></div>
       <div class="conteudo">
-        <div class="anuncios-destaque">anuncios-destaque</div>
-        <div class="ofertas-semana">ofertas-semana</div>
-        <div class="voce-viu">voce-viu</div>
+        <div class="anuncios-destaque"></div>
+        <div class="ofertas-semana"></div>
+        <div class="voce-viu"></div>
       </div>
-      <div class="cupons-desconto">cupons-desconto</div>
-      <div class="rodape">rodape</div>
+      <div class="cupons-desconto"><img src="/img/conteudo.jpg" alt=""></div>
+      <div class="rodape" id="footer">
+
+      </div>
     </div>
   </body>
 </html>
